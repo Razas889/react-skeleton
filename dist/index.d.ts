@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 export interface SkeletonProps extends React.HTMLAttributes<HTMLDivElement> {
-    type: "text" | "title" | "thumbnail" | "avatar"  | "Box";
+    type: "text" | "title" | "thumbnail" | "avatar"  | "box";
     count?: number;
 }
 interface ItemProps extends React.HTMLAttributes<HTMLDivElement> {
